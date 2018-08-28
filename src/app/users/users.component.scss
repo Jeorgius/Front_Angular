@@ -1,0 +1,22 @@
+
+.user {
+    width: 120px;
+    height: 150px;
+    text-align: center;
+    margin: 10px;
+    padding: 5px 10px;
+    display:inline-block;
+    /*transition-property: box-shadow;*/
+    box-shadow: none;
+}
+
+.user:hover {
+    box-shadow: 0 2px 0 antiquewhite inset,
+    0 2px 0 antiquewhite;
+}
+
+.user img {
+    margin-top: 10px;
+    max-width: 100px;
+    max-height: 80px;
+}

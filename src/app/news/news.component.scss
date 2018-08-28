@@ -1,0 +1,23 @@
+.news {
+    display: grid;
+    grid-template-columns: auto 170px;
+    max-height: 300px;
+    padding: 10px;
+    grid-gap: 5px;
+    background: antiquewhite;
+    color: black;
+    position: relative;
+    margin-bottom: 10px;
+}
+.news .newsTextBox {
+    grid-column: 1;
+}
+.news img {
+    grid-column: 2;
+    width:160px;
+}
+.news .newsTitle {
+    display: block;
+    font-size: 1.5em;
+    font-weight: bolder;
+}

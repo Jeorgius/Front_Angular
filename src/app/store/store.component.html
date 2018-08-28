@@ -1,0 +1,7 @@
+<div class="prodItem" *ngFor="let product of Products">
+  <div class="pTitle">{{product.pTitle}}</div>
+  <img [src]="product.picHTML">
+  <div class="pn">{{product.pn}}</div>
+  <div class="price">{{product.price | currency }}</div>
+  <div class="hotsale" *ngIf="product.hot">HOT</div>
+</div>

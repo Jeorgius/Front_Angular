@@ -1,0 +1,26 @@
+[
+    {
+        "picHTML":"../../assets/data/photos/Land1.jpg",
+        "alt":"test image 1"
+    },
+    {
+        "picHTML":"../../assets/data/photos/Land2.jpg",
+        "alt":"test image 2"
+    },
+    {
+        "picHTML":"../../assets/data/photos/Land3.jpg",
+        "alt":"test image 3"
+    },
+    {
+        "picHTML":"../../assets/data/photos/Land4.jpg",
+        "alt":"test image 4"
+    },
+    {
+        "picHTML":"../../assets/data/photos/Land5.jpg",
+        "alt":"test image 5"
+    },
+    {
+        "picHTML":"../../assets/data/photos/Land6.jpg",
+        "alt":"test image 6"
+    }
+]

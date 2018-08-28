@@ -1,0 +1,11 @@
+<div (click)="openProfile(user)" class="user" *ngFor="let user of userInfo">
+    <div class="nickname">{{user.nickname}}</div>
+    
+    <img *ngIf="user.picHTML; else blankPic" [src]="user.picHTML">
+    <ng-template #blankPic>
+        <img src="../../assets/data/users/userpic.jpg">
+    </ng-template>
+    
+    <div class="name">{{user.name}}</div>
+    <div class="surname">{{user.surname}}</div>
+</div>

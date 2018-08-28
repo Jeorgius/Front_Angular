@@ -1,0 +1,23 @@
+[
+    {
+        "id":"1",
+        "nickname":"Jeorgius",
+        "name":"Georgi",
+        "surname":"Zykov",
+        "picHTML":"../../assets/data/users/_Jeorgius/1.jpg"
+    },
+    {
+        "id":"2",
+        "nickname":"Natashenka",
+        "name":"Natalia",
+        "surname":"Naumova",
+        "picHTML":"../../assets/data/users/_Natashenka/Natashenka.jpg"
+    },
+    {
+        "id":"3",
+        "nickname":"Leo",
+        "name":"Lev",
+        "surname":"Zykov",
+        "picHTML":""
+    }
+]

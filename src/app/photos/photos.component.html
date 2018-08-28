@@ -1,0 +1,3 @@
+<div class="photo" *ngFor="let photos of Photos;index as i">
+  <img [src]="Photos[Photos.length-1-i].picHTML" [alt]="Photos[Photos.length-1-i].alt">
+</div>
