@@ -9,7 +9,7 @@
     margin-top: 5px;
 }
 
-ul {
+ul, .SocialNetworksBar {
     padding-left: 30px;
 }
 li {
@@ -30,4 +30,11 @@ li {
 }
 #MyProfile:hover {
     box-shadow: 0 1px 0 white;
+}
+.SocialNetworksBar{
+    display: flex;
+}
+.SocialNetwork{
+    max-width: 70px;
+    max-height: 70px;
 }

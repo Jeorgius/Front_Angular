@@ -20,6 +20,7 @@ import { StoreService } from '../services/store.service';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { MusicService } from '../services/music.service';
 import { LoginComponent } from './login/login.component';
+import { LoginService } from '../services/login.service';
 
 @NgModule({
   declarations: [
@@ -45,7 +46,8 @@ import { LoginComponent } from './login/login.component';
     UserService,
     StoreService,
     PhotosService,
-    MusicService
+    MusicService,
+    LoginService
   ],
   bootstrap: [AppComponent]
 })

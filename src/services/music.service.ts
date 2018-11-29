@@ -7,7 +7,7 @@ import { musicList } from '../app/music/musicInterface';
 })
 export class MusicService {
 
-  private JavaServer = "http://localhost:8081/api/MusicGet";
+  private JavaServer = "http://localhost:8001/api/MusicGet";
 
   constructor(private HTML: HttpClient) {}
 

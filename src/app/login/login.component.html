@@ -1,10 +1,14 @@
-<form method="POST" #loginForm="ngForm">
-  <input class="Login_forms" id="login" type="text" name="login" value="Login" ngModel />
-  <br />
-  <input class="Login_forms" id="pw" type="password" name="pw" value="Pass" ngModel />
-  <br />
-  <input class="Login_forms" id="LoginButton" type="button" value="Send" ngModel />
+<form #loginForm="ngForm">
+  <div><input class="Login_forms" id="login" type="text" name="login" value="Login" ngModel/></div>
+  <div><input class="Login_forms" id="pw" type="password" name="pw" value="Pass" ngModel/></div>
+  <button class="Login_forms" id="LoginButton" type="submit">Send</button>
 </form>
 <ul class="navigation">
-  <li class="marker" id="register">register</li>
+  <li class="marker" id="register" routerLink="/register">register</li>
 </ul>
+
+<div class="SocialNetworksBar">
+  <div>
+    <img (click)="submitSocialLogin()" class="SocialNetwork" src="../../assets/data/icons/fb_logo.png" />
+  </div>
+</div>
