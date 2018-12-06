@@ -27,13 +27,14 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
 export const routeComponents = [
-                                  AboutComponent, 
-                                  MusicComponent,
-                                  NewsComponent,
-                                  PhotosComponent,
-                                  RegisterComponent,
-                                  StoreComponent,
-                                  UsersComponent,
-                                  UserDetailComponent
+  AboutComponent, 
+  MusicComponent,
+  NewsComponent,
+  PhotosComponent,
+  RegisterComponent,
+  StoreComponent,
+  UsersComponent,
+  UserDetailComponent
 ]

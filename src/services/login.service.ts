@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http'
   providedIn: 'root'
 })
 export class LoginService {
-  private JavaServer = "http://localhost:8777/login/fb";
+  private JavaServer = "https://localhost:8007/user";
   
   constructor(private HTTP : HttpClient) { }
 

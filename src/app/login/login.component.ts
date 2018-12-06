@@ -9,6 +9,8 @@ import { LoginService } from "../../services/login.service"
 })
 export class LoginComponent implements OnInit {
 
+  private JavaSocial = 'http://localhost:8777/login/fb';
+
   constructor(private LoginUser : LoginService) { }
   ngOnInit() {}
 
